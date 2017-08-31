@@ -1,0 +1,8 @@
+spring:
+  dubbo:
+    name: apigateway
+    address: zookeeper://echqlm2:2181?backup=echqlm0:2181
+    check: false
+    timeout: 6000
+    retries: 0
+  
